@@ -1,0 +1,21 @@
+
+*{
+    font-family: sans-serif;
+    /*EL * EN EL INICIO MARCA UNA CONDICION UNIVERSAL DE ATRIBUTOS PARA EL RESTO DEL DOCUMENTO */
+        box-sizing: border-box;
+}
+h1, h2, h3 {
+    /* LOS ELEMENTOS DETRAS DEL CORCHETE SON A LOS QUE SE LE APLIC A LA PROPIEDAD. VARIOS ELEMENTOS SEPARADOS CON , SE PUEDEN PONER DE
+    ESTA FORMA PARA QUE TENGAN LA MISMA PROPIEDAD */
+    font-weight: bold;
+    color: blue;
+    width: 600px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px;
+}
+p {
+    color: red;
+    width: 300px;
+}
+/* ASI SE MARCAN COMENTARIOS EN CSS */
